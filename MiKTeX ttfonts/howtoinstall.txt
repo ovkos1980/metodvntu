@@ -1,0 +1,5 @@
+1. Copy/move "MiKTeX ttfonts" directory to "C:\users\username\" 
+2. Start MiKTeX Console and open the Settings page.
+3. Click the Directories tab. Click the Add button and browse to the directory created earlier (step 1).
+4. Go to Tasks tab and click Refresh Filename Database.
+5. Go to Tasks tab and click Refresh Font Map Files.

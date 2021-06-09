@@ -1,0 +1,22 @@
+%Filename: t1iso.fd
+%Created by: tex iso-drv
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1iso.fd}
+   [2016/11/13 Fontinst v1.933 font definitions for T1/iso.]
+
+\DeclareFontFamily{T1}{iso}{}
+
+\DeclareFontShape{T1}{iso}{m}{n}{
+   <-> isor8t
+}{}
+
+\DeclareFontShape{T1}{iso}{m}{it}{
+   <-> isori8t
+}{}
+
+\DeclareFontShape{T1}{iso}{m}{sl}{<->ssub * iso/m/it}{}
+
+\endinput

@@ -1,0 +1,48 @@
+\documentclass{metodvntu}
+\usepackage{enumerate}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage[makeroom]{cancel}
+\usepackage{verbatim}
+\usepackage{tabularx}
+\usepackage{pgfplots}
+\usepackage{lastpage}
+\usepackage{lipsum}
+\usepackage{amssymb}
+\usetikzlibrary{scopes}
+
+\newcommand{\garnitura}{Computer Modern}
+
+%%uncomment this code in case there is Time New Roman font is needed for typesetting
+%\usepackage{pscyr}
+%\renewcommand{\rmdefault}{ftm}
+%\renewcommand{\garnitura}{Time New Roman}
+
+\hypersetup{%
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+    pdftitle={Методичні вказівки до розрахунково-графiчної роботи з дисциплiни «Мiкропроцесорна технiка»},
+    pdfauthor={Овчинников~К.~В.},
+    pdfkeywords={мікропроцесор, запам'ятовувальний пристрій, модуль, інформаційний обсяг, шина, розрядність даних, розрядність слова, адресний простір, динамічний, статичний, надоперативний, інтегральна схема}}
+    
+
+\begin{document}
+\input{main/title.tex} 
+\input{main/subtitle1.tex} 
+\input{main/subtitle2.tex}
+\pagestyle{plain}
+{ \hypersetup{linkcolor=blue}%set linkcolor blue only in TOC 
+  \tableofcontents }         %
+\input{main/preface.tex}
+\input{main/chapter1.tex}
+\input{main/chapter2.tex}
+\input{main/chapter3.tex}
+\input{main/biblio.tex}
+\appendix
+\input{main/appendix_tasks.tex}
+\input{main/appendix_title.tex}
+\input{main/appendix_scheme.tex}
+\input{main/lastpage.tex}
+\end{document}
